@@ -11,7 +11,7 @@ public class HibernateUtil {
 		Session session = HelloWorldSessionFactory.getSession();
 		session.beginTransaction();
 		Message message = new Message();
-		message.setText("Hello Hibernate");
+		message.setText("Hello Hibernate logging");
 		session.save(message);
 		session.getTransaction().commit();
 		System.out.println("Record Inserted Successfully");

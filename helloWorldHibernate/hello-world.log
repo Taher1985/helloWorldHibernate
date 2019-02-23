@@ -1,0 +1,8 @@
+19:51:55,916 DEBUG SQL:94 - select MESSAGE_SEQ.nextval from dual
+19:51:55,967 DEBUG SQL:94 - insert into Message (TEXT, ID) values (?, ?)
+19:51:55,975 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello Hibernate logging]
+19:51:55,976 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [27]
+19:55:59,042 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello Hibernate logging]
+19:55:59,045 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [28]
+19:56:12,000 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello Hibernate logging]
+19:56:12,003 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [29]

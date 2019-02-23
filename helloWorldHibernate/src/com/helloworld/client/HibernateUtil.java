@@ -14,8 +14,7 @@ public class HibernateUtil {
 		message.setText("Hello Hibernate");
 		session.save(message);
 		session.getTransaction().commit();
-		session.close();
-
+		System.out.println("Record Inserted Successfully");
 	}
 
 }

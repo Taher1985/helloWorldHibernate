@@ -17,7 +17,8 @@ public class HelloWorldSessionFactory {
 	}
 
 	public static Session getSession() {
-		session = sessionFactory.getCurrentSession();
+		session = sessionFactory.getCurrentSession(); // It creates a new Session if not exists , else use same session which is in current hibernate context
+													  // It automatically configured with both auto-flush and auto-close attributes as true means Session will be automatically flushed and closed.
 		return session;
 	}
 
